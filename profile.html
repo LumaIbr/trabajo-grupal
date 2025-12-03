@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Perfil</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">        
+    </head>
+    <body>
+        
+        <!-- Manú (navbar) -->
+        <nav class="navbar bg-body-tertiary  sticky-top mb-3">
+            <div class="container-fluid justify-content-between">
+                
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="logo" width="30" height="24">
+                        MatchJob
+                    </a>
+                </div>
+
+                <div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-5" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark rounded-5" type="submit">Buscar</button>
+                    </form>
+                </div>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>  
+                </ul>      
+            </div>
+        </nav>
+       
+
+        <!-- Perfil (cards) -->
+        <div class="card container-fluid">
+            <img src="Img/sin foto.jpg" class="card-img-top rounded-circle mx-auto" style="width:15%;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nombre y Apellido</h5>
+                <p class="card-text">Oficio o area en la que desempeña.</p>
+                <p>Ubicación</p>
+                <p>Presentación personal/Descripción de mi actividad/Experiencia</p>
+            </div>
+        </div>    
+            
+
+        <!-- Descripción (texto)-->
+        <div class="m-5">
+            <h5>Formación Profesional</h5>
+            <ul>
+                <li>
+                     ...
+                </li>
+                <li>
+                    ...
+                </li>
+                <li>
+                    ...
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Experiencia (columns) -->
+        <div class="m-5">    
+            <h5>Experiencia Laboral</h5>
+            <div class="row m-3">    
+                <div class="col">
+                    <h6>Empresa</h6>
+                    <p>Descripción del puesto/actividades</p>
+                </div>
+                <div class="col">
+                    <h6>Empresa</h6>
+                    <p>Descripción del puesto/actividades</p>
+                </div>
+                <div class="col">
+                    <h6>Empresa</h6>
+                    <p>Descripción del puesto/actividades</p>
+                </div>                                
+            </div>
+        </div>    
+
+        <!-- Calificaciones -->
+        <div class="m-5 col-6">
+            <h5>Mis Calificaciones</h5>
+            <ul class="m-3 list-group">
+                <li class="list-group-item">
+                    <div class="card mb-1">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="Img/sin foto.jpg" class="img-fluid col-6 m-3" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Nombre</h6>
+                                    <p class="card-text"><small class="text-body-secondary">puntuación</small></p>
+                                    <p class="card-text">Comentario.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="card mb-1" >
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="Img/sin foto.jpg" class="img-fluid col-6 m-3" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Nombre</h6>
+                                    <p class="card-text"><small class="text-body-secondary">puntuación</small></p>
+                                    <p class="card-text">Comentario.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="card mb-1" >
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="Img/sin foto.jpg" class="img-fluid col-6 m-3" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Nombre</h6>
+                                    <p class="card-text"><small class="text-body-secondary">puntuación</small></p>
+                                    <p class="card-text">Comentario.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>                
+            </ul>
+        </div>    
+
+
+        
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>
